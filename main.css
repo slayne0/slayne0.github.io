@@ -1,0 +1,14 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    background-color: red;
+}
+
+main {
+    background-color: rgb(78, 76, 76);
+    
+}
