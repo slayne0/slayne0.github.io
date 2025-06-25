@@ -1,20 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import "tailwindcss";
 import Header from "./components/Header";
-import skill from "./components/skill";
+import Hero from "./components/Hero";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
+    <div className="app-container bg-gray-900 min-h-screen text-white">
       <Header />
-      <skill />
-      <div>qskddiqd</div>
-    </>
+      <Hero />
+    </div>
   );
 }
 
